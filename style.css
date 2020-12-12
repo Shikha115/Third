@@ -1,0 +1,260 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 2000px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: red;
+    height: 50px;
+    width: 1500px;
+    position: fixed;
+    display: inline-block;
+    z-index: 2;
+    left: -3px;
+}
+.line{
+    height:30px;
+    width: 50px;
+    position: relative;
+    left: 160px;
+    top: 10px;
+}
+.welcome{
+    position: relative;
+    left: 220px;
+    bottom: 35px;
+    color: white;
+}
+.search{
+    border-radius: 5px;
+    position: relative;
+    left: 450px;
+    bottom:75px;
+    width: 250px;
+}
+.home{
+    height:25px;
+    width: 25px;
+    position: relative;
+    left: 1030px;
+    bottom: 100px;
+}
+.bell{
+    height:25px;
+    width: 25px;
+    position: relative;
+    left: 1040px;
+    bottom: 100px;
+}
+.user{
+    height:25px;
+    width: 25px;
+    position: relative;
+    left: 1050px;
+    bottom: 100px;
+}
+.name{
+    position: relative;
+    left: 1140px;
+    bottom: 145px;
+    color: white;
+    font-size: 35px;
+}
+nav{
+    background-color: black;
+    width: 250px;
+    height: 400px;
+    position: relative;
+    bottom: 170px;
+    position: relative;
+    left:-190px;
+    transition-property:left;
+    position: fixed;
+    top: 60px;
+}
+.img{
+    color: white;
+    margin: 1px 10px;
+    padding: 10px 10px;
+}
+.img a{
+    color: white;
+    position: relative;
+    bottom: 5px;
+    text-decoration: none;
+}
+nav:hover{
+    left:0px;
+}
+main{
+    position: relative;
+    left: 100px;
+    top: 70px;
+}
+.service{
+    display: inline-block;
+    padding: 10px 10px;
+}
+.pic{
+    border: thin ridge rgba(128, 128, 128, 0.582);
+    width: 1130px;
+    border-radius: 10px;
+}
+textarea{
+    opacity: 0.5;
+    border-radius: 10px;
+}
+.bar{
+    padding: 8px 20px;
+    display: inline-block;
+    margin: 0px 50px;
+}
+.bar a{
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    text-decoration: none;
+}
+.box{
+    border: thin ridge rgba(128, 128, 128, 0.582);
+    width: 1000px;
+    border-radius: 10px;
+    margin: 20px 20px;
+}
+.post{
+    border: thin ridge rgba(128, 128, 128, 0.582);
+    width: 700px;
+    border-radius: 10px;
+    margin: 20px 20px;
+}
+.info{
+    position: relative;
+    left: 90px;
+    bottom: 70px;
+}
+.info h2, .info h3, .info h4{
+    margin: 0;
+    padding: 0;
+}
+.mid{
+    position: relative;
+    bottom: 40px;
+    margin: 0 auto;
+    display: block;
+}
+.foot{
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    margin: 0px 0px;
+}
+.foot img{
+    margin: 0px 30px;
+}
+.head{
+    font-size: 20px; 
+    font-weight: bold;
+    text-decoration: underline orange;
+    position: relative;
+    left: 800px;
+    bottom: 485px;
+}
+.trends{
+    position: relative;
+    left: 730px;
+    bottom: 470px;
+    border: thin ridge rgba(128, 128, 128, 0.582);
+    width: 400px;
+    border-radius: 10px;
+    margin: 20px 20px;
+}
+.trends img{
+    margin: 0 auto;
+    display: block;
+}
+.trends p{
+    position: relative;
+    left: 10px;
+}
+.post1{
+    border: thin ridge rgba(128, 128, 128, 0.582);
+    width: 700px;
+    border-radius: 10px;
+    margin: 20px 20px;
+    position: relative;
+    bottom: 1520px;
+}
+.post2{
+    border: thin ridge rgba(128, 128, 128, 0.582);
+    width: 700px;
+    border-radius: 10px;
+    margin: 20px 20px;
+    position: relative;
+    bottom: 1520px;
+}
+.post3{
+    border: thin ridge rgba(128, 128, 128, 0.582);
+    width: 700px;
+    border-radius: 10px;
+    margin: 20px 20px;
+    position: relative;
+    bottom: 1520px;
+}
+.head1{
+    font-size: 20px; 
+    font-weight: bold;
+    text-decoration: underline greenyellow;
+    position: relative;
+    left: 800px;
+    bottom: 1640px;
+}
+.trends1{
+    position: relative;
+    left: 730px;
+    bottom: 1640px;
+    border: thin ridge rgba(128, 128, 128, 0.582);
+    width: 400px;
+    border-radius: 10px;
+    margin: 20px 20px;
+}
+.trends1 img{
+    margin: 0 auto;
+    display: block;
+}
+.trends1 p{
+    position: relative;
+    left: 10px;
+}
+.post4{
+    border: thin ridge rgba(128, 128, 128, 0.582);
+    width: 700px;
+    border-radius: 10px;
+    margin: 20px 20px;
+    position: relative;
+    bottom: 2065px;
+}
+.post5{
+    border: thin ridge rgba(128, 128, 128, 0.582);
+    width: 700px;
+    border-radius: 10px;
+    margin: 20px 20px;
+    position: relative;
+    bottom: 2065px;
+}
+.post6{
+    border: thin ridge rgba(128, 128, 128, 0.582);
+    width: 700px;
+    border-radius: 10px;
+    margin: 20px 20px;
+    position: relative;
+    bottom: 2065px;
+}
+footer{
+    position: relative;
+    top: 1800px;
+}
+
